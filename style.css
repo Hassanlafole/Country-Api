@@ -78,3 +78,25 @@ body{
     font-weight: 400;
     color: #ff465a;
 }
+@media screen and (max-width:414px){
+    .search-wrapper input{
+        font-size: 1em;
+        padding: 0 0em;
+        border: none;
+        border-bottom: 2px solid #3d64e6;
+        outline: none;
+        color: #222a43;
+    }
+    .search-wrapper button{
+        /* font-size: 1em; */
+        background-color: #3d64e6;
+        color: #fff;
+        padding: 0.1em 0;
+        border: none;
+        border-radius: 1.5em;
+    }
+    .search-wrapper{
+        margin-right: 70px;
+        margin-left: -30px;
+    }
+}
